@@ -1,0 +1,16 @@
+<div class="statuspageio-info">
+	<h1 class="title" data-bind="title"></h1>
+
+  <p>
+    <span class="label" data-bind="overall_status.description"></span><br>
+    <span class="label" data-bind="issue_count"></span> current issues
+  </p>
+  <table class="components">
+    <tr data-foreach-component="components_status">
+      <td class="name" data-bind="component.name"></td>
+      <td class="status" data-bind="component.status"></td>
+    </tr>
+  </table>
+
+</div>
+<p class="updated-at" data-bind="updatedAtMessage"></p>
