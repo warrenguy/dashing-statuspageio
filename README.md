@@ -12,6 +12,7 @@ A widget for [Dashing](https://github.com/Shopify/dashing) to monitor the status
  * KISSMetrics (http://status.kissmetrics.com)
  * Citrix GoToMeeting (http://status.gotomeeting.com)
  * Kickstarter (http://status.kickstarter.com)
+ * RedisLabs (https://status.redislabs.com)
 
 ## Usage
 
