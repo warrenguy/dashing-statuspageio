@@ -1,7 +1,10 @@
 :statuspageio:
-  :uri: 'http://status.linode.com/index.json'
-  :components:
-    - Linode Manager and API
-    - London
-    - Dallas
-    - Fremont
+  :linode:
+    :uri: 'http://status.linode.com/index.json'
+    :components:
+      - Linode Manager and API
+      - London
+      - Dallas
+      - Fremont
+  :disqus:
+    :uri: 'http://status.disqus.com/index.json'
