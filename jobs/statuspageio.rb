@@ -6,7 +6,8 @@ config_file = YAML.load File.open("config.yml")
 config      = config_file[:statuspageio]
 
 services = []
-if ((config.count == 2) and config[:uri] and config[:components])
+if (((config.count == 2) and config[:uri] and config[:components]) or
+    ((config.count == 1) and config[:uri]))
   services << config
 else
   config.each do |name, service|
